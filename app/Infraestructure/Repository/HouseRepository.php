@@ -4,9 +4,9 @@ namespace App\Infraestructure\Repository;
 
 use App\Application\Services\HouseServices;
 use App\Domain\Entities\HouseEntity;
-use App\Domain\Interfaces\IHouse;
+use App\Domain\Repository\IHouseRepository;
 
-class HouseRepository implements IHouse
+class HouseRepository implements IHouseRepository
 {
     public function __construct(private readonly HouseServices $houseServices)
     {

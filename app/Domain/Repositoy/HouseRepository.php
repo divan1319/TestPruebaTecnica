@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Domain\Interfaces;
+namespace App\Domain\Repository;
 
 use App\Domain\Entities\HouseEntity;
 
-interface IHouse
+interface IHouseRepository
 {
     public function CreateTenant(HouseEntity $tenant) : bool;
     public function UpdateTenant(HouseEntity $tenant) : HouseEntity;
