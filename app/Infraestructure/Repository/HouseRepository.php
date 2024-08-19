@@ -4,7 +4,7 @@ namespace App\Infraestructure\Repository;
 
 use App\Application\Services\HouseServices;
 use App\Domain\Entities\HouseEntity;
-use App\Domain\Repository\IHouseRepository;
+use App\Domain\Repository\HouseRepository as IHouseRepository;
 
 class HouseRepository implements IHouseRepository
 {

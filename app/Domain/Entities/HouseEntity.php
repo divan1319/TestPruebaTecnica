@@ -33,7 +33,7 @@ class HouseEntity
         $this->poligono_id = $poligono_id;
         $this->quota = $quota;
         $this->created_at = $created_at ?? Carbon::now();
-        $this->updated_at = $updated_at ?? Carbon::now();
+        $this->updated_at = $updated_at ?? null;
     }
 
     
